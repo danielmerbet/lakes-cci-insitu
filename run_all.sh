@@ -32,3 +32,4 @@ $PY scripts/insitu_chl.py "$CCI_V21/hylak_id_description.csv" data/insitu_chl.cs
   data/insitu/ecan_chl.csv
 $PY scripts/insitu_timing.py data/insitu_chl.csv "$CCI_V21/daily" data/results/v21 data/insitu/*_sites.csv
 $PY scripts/insitu_report.py data/results/v21 docs/index.html --standalone
+cp docs/index.html index.html   # GitHub Pages from the repository root or from /docs

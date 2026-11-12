@@ -4,7 +4,7 @@ Does the ESA Lakes_cci satellite chlorophyll-a get the level and the seasonal cy
 Lakes_cci v2.1 with field chlorophyll-a from national and regional monitoring programmes that were **not** used to
 build or validate Lakes_cci.
 
-**Report:** https://danielmerbet.github.io/lakes-cci-insitu/ (built from `docs/index.html`)
+**Interactive report:** https://danielmerbet.github.io/lakes-cci-insitu/ (`index.html`, same file as `docs/index.html`; Pages can serve either the root or `/docs`)
 
 ## Main results (Lakes_cci v2.1, 2002–2022)
 

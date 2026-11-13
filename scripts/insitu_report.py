@@ -299,12 +299,12 @@ def html(n, d):
     taken near shore.</figcaption>
   </figure>
   <div class="tables col">
-    <div><h3>Bias by trophic state</h3><table><thead><tr><th>in-situ mean (µg/L)</th><th>lakes</th><th>CCI / in-situ</th></tr></thead><tbody>{tro}</tbody></table></div>
+    <div><h3>Bias by lake chlorophyll level</h3><table><thead><tr><th>in-situ mean chl-a (µg/L)</th><th>lakes</th><th>CCI / in-situ</th></tr></thead><tbody>{tro}</tbody></table></div>
     <div><h3>Bias by lake size</h3><table><thead><tr><th>area (km²)</th><th>lakes</th><th>median</th><th>typical error</th></tr></thead><tbody>{siz}</tbody></table></div>
   </div>
   <figure>
     <div class="plate"><img src="{F['fig6_level']}" alt="Per-lake CCI over in-situ ratio against in-situ mean chlorophyll-a and against lake area."></div>
-    <figcaption>The ratio falls with trophic state: lakes under 5 µg/L read ×{t5:.1f} too high, lakes above 30 µg/L
+    <figcaption>The ratio falls as the lake gets greener (higher mean chl-a): lakes under 5 µg/L read ×{t5:.1f} too high, lakes above 30 µg/L
     about right. Lakes under 20 km² have the largest errors in both directions (typical factor in the table: median of
     the absolute log ratio).</figcaption>
   </figure>

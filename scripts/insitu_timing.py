@@ -268,7 +268,7 @@ def fig_level(L, out, label):
     ax[0].scatter(d.insitu_mean, 10 ** d.bias, s=22, color=PL.CAT[0], edgecolor=PL.SURFACE, linewidth=0.6)
     ax[0].set_xscale("log"); ax[0].set_yscale("log"); ax[0].axhline(1, color=PL.INK2, lw=1)
     ax[0].set_xlabel("in-situ mean chl-a (µg/L)"); ax[0].set_ylabel("CCI / in-situ (median of matchups)")
-    ax[0].set_title("Bias against trophic state")
+    ax[0].set_title("Bias against lake chlorophyll level")
     ax[1].scatter(d.area_km2, 10 ** d.bias, s=22, color=PL.CAT[2], edgecolor=PL.SURFACE, linewidth=0.6)
     ax[1].set_xscale("log"); ax[1].set_yscale("log"); ax[1].axhline(1, color=PL.INK2, lw=1)
     ax[1].set_xlabel("lake area (km²)"); ax[1].set_title("Bias against lake size")
